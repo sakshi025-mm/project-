@@ -1,41 +1,1317 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Analog Clock</title>
+
+
+
+
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+<head>
+  <script> 
+    // Define dataLayer and the gtag function. 
+    window.dataLayer = window.dataLayer || []; 
+    function gtag(){dataLayer.push(arguments);} 
+    // Default to 'denied'. 
+    gtag('consent', 'default', { 
+      ad_storage: "denied", 
+      analytics_storage: "denied", 
+      functionality_storage: "denied", 
+      personalization_storage: "denied", 
+      security_storage: "denied", 
+      wait_for_update: 500 
+    }); 
+  </script> 
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+  })(window,document,'script','dataLayer','GTM-NLRVJPQ');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- OneTrust Cookies Consent Notice start for agropur.com -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="235213bc-6c41-40a1-a167-65f240efa553" ></script>
+  <script type="text/javascript">
+  function OptanonWrapper() { }
+  </script>
+  <!-- OneTrust Cookies Consent Notice end for agropur.com -->
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"452bec70c1",applicationID:"247381080"};;/*! For license information please see nr-loader-rum-1.259.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>P,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>N});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var E=r(385),x=r(6818);const D={buildEnv:x.Re,distMethod:x.gF,version:x.q4,originTime:E.sK},S={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,harvestCount:0,timeKeeper:void 0},R={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function N(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]={...(0,i.D)(t,S),...D};const r=(0,n.ek)(e);r&&(r.runtime=R[e])}function P(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.259.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,iS:()=>a,il:()=>n,sK:()=>l,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(Date.now()-performance.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},7872:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{D:()=>n,Z:()=>i})},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894),m=r(7056);function b(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}const y={};var A=r(2825);const w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let _=!1;function E(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,E=arguments.length>3?arguments[3]:void 0,{init:x,info:D,loader_config:S,runtime:R={loaderType:p},exposed:k=!0}=t;const N=(0,f.gG)();D||(x=N.init,D=N.info,S=N.loader_config),(0,i.Dg)(e.agentIdentifier,x||{}),(0,i.GE)(e.agentIdentifier,S||{}),D.jsAttributes??={},u.v6&&(D.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,D);const P=(0,i.P_)(e.agentIdentifier),j=[D.beacon,D.errorBeacon];_||(P.proxy.assets&&(w(P.proxy.assets),j.push(P.proxy.assets)),P.proxy.beacon&&j.push(P.proxy.beacon),b(),(0,f.EZ)("activatedFeatures",A.T),e.runSoftNavOverSpa&&=!0===P.soft_navigations.enabled&&P.feature_flags.includes("soft_nav")),R.denyList=[...P.ajax.deny_list||[],...P.ajax.block_internal?j:[]],R.ptid=e.agentIdentifier,(0,i.sU)(e.agentIdentifier,R),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var b=a.ee.get(e),A=b.get("tracer");y[e]=m.IK.OFF,b.on(g.Ef.REPLAY_RUNNING,(t=>{y[e]=t}));var w="api-",_=w+"ixn-";function E(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),S(w,n,!0,o||null===r?"session":void 0)(t,r)}function x(){}h.forEach((e=>{p[e]=S(w,e,!0,"api")})),p.addPageAction=S(w,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,S(w,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return E(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return E("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return E("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=()=>{try{(0,o.p)(l.xS,["API/start/called"],void 0,n.D.metrics,b),b.emit("manual-start-all")}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,b)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,b)},p.interaction=function(e){return(new x).get("object"==typeof e?e:{})};const D=x.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,b),f||(0,o.p)(_+"tracer",[(0,v.z)(),e,r],i,n.D.spa,b),function(){if(A.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw A.emit("fn-err",[arguments,this,t],r),t}finally{A.emit("fn-end",[(0,v.z)()],r)}}}};function S(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,b),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,b),r?void 0:this}}function R(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((e=>{(0,d.Z)("Downloading runtime APIs failed...",e),b.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{D[e]=S(_,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?S(_,"routeName",void 0,n.D.softNav):S(w,"routeName",!0,n.D.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,b),(0,o.p)("err",[t,(0,v.z)(),!1,r,!!y[e]],void 0,n.D.jserrors,b)},u.il?(0,c.b2)((()=>R()),!0):R(),p}(e.agentIdentifier,E,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=k),_=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.259.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.259.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-5GjfGUBNtKaMaiPnle7qB4rCL61B2+hWtN2DiJfRQbAiNvU7ZKxPPsUkbhEmxVpeg7jcZYgtM42Uv6aB3sjKAQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.259.0.PROD"]=self["webpackChunk:NRBA-1.259.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402),n=i(8325);class o{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e,this.ee=n.ee.get(e)}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var a=i(3325),s=i(234);const c=Object.values(a.D);function u(e){const t={};return c.forEach((r=>{t[r]=function(e,t){return!0===(0,s.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var d=i(2758);var l=i(8e3),f=i(5938),g=i(3960),p=i(385);const h=e=>p.il&&!0===(0,s.Mt)(e,"privacy.cookies_enabled");function v(e){return!!s.Yu.MO&&h(e)&&!0===(0,s.Mt)(e,"session_trace.enabled")}var m=i(7872);class b extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,s.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,l.RP)(e,r):this.ee.on("manual-start-all",(0,m.Z)((()=>{(0,l.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(h(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,7920));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===a.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,l.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,l.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};p.il?(0,g.b2)((()=>n()),!0):n()}#t(e,t){return e!==a.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!v(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var y=i(7633);class A extends b{static featureName=y.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,y.t,r),this.importAggregator()}}var w=i(1117),_=i(1284);class E extends w.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,_.D)(e,(function(e,r){t[e]=x(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,_.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=x(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=D(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=D(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function D(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var S=i(8632),R=i(4351);var k=i(5546),N=i(7956),P=i(3239),j=i(9251),T=i(7894);class I extends b{static featureName=j.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,j.t,r),p.il&&((0,N.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,j.t,this.ee)),!0),(0,P.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,j.t,this.ee))),this.importAggregator())}}var O=i(3081);class M extends b{static featureName=O.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,O.t9,r),this.importAggregator()}}new class extends o{constructor(t,r){super(r),p._A?(this.sharedAggregator=new E({agentIdentifier:this.agentIdentifier}),this.features={},(0,S.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(A),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===a.D.softNav)),(0,d.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=u(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>a.p[e.featureName]-a.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==a.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===a.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===a.D.softNav)return;const n=function(e){switch(e){case a.D.ajax:return[a.D.jserrors];case a.D.sessionTrace:return[a.D.ajax,a.D.pageViewEvent];case a.D.sessionReplay:return[a.D.sessionTrace];case a.D.pageViewTiming:return[a.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,R.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,S.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[A,I,M],loaderType:"lite"})})()})();</script>
+<meta name="description" content="Agropur Ingredients is a global leader, supplying some of the world’s most prominent food, beverage, and nutrition industries with innovative functional ingredients, and quality contract manufacturing services" />
+<link rel="canonical" href="https://www.agropur.com/us/ingredients" />
+<meta property="og:site_name" content="Agropur" />
+<meta property="og:url" content="https://www.agropur.com/us/ingredients" />
+<meta property="og:title" content="Agropur Ingredients" />
+<meta property="og:image" content="https://www.agropur.com| /themes/custom/agropur_usa_theme/styleguide/assets/images/agropur-logo--en.svg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta itemprop="acquia_lift:content_title" content="Agropur Ingredients" />
+<meta itemprop="acquia_lift:content_type" content="landing_page" />
+<meta itemprop="acquia_lift:page_type" content="node page" />
+<meta itemprop="acquia_lift:context_language" content="en" />
+<meta itemprop="acquia_lift:content_section" content="" />
+<meta itemprop="acquia_lift:content_keywords" content="" />
+<meta itemprop="acquia_lift:post_id" content="4361" />
+<meta itemprop="acquia_lift:content_uuid" content="f7924d95-30e5-47d1-a2f3-364db0f3d793" />
+<meta itemprop="acquia_lift:published_date" content="1600109072" />
+<meta itemprop="acquia_lift:persona" content="" />
+<meta itemprop="acquia_lift:engagement_score" content="1" />
+<meta itemprop="acquia_lift:account_id" content="AGROPUR" />
+<meta itemprop="acquia_lift:site_id" content="corporate" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://builder.lift.acquia.com" />
+<meta itemprop="acquia_lift:liftDecisionAPIURL" content="https://us-east-1-decisionapi.lift.acquia.com" />
+<meta itemprop="acquia_lift:bootstrapMode" content="auto" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="trusted" />
+<meta itemprop="acquia_lift:cdfVersion" content="1" />
+<script src="https://builder.lift.acquia.com/lift.js" async></script>
+<link rel="alternate" hreflang="en" href="https://www.agropur.com/us/ingredients" />
+<link rel="icon" href="/us/themes/custom/agropur_usa_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+
+  <title>Ingredients | Agropur</title>
+  <link rel="stylesheet" media="all" href="/us/sites/agropurus/files/css/css_IOfW-9pc9wdWP1QsM0PuebJmnRUcX8p8TCXRrUSq-lY.css?delta=0&amp;language=en&amp;theme=agropur_usa_theme&amp;include=eJx9ylsOAiEMheEN4XRJpEgFkjKQXjSze43GjNGJL-fh-w8WGdMlajNCJjHAbwm6qVGHhErhXV0xWqVOUHgk5JOepU3TPwfbuK3l4FAJM8lBuIxhH6F6ii-CXwoT5aE4q0IWn8jLLouv0xM3rZTDtdFN4blLH9mZ7oxEaE8" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+<link rel="stylesheet" media="all" href="/us/sites/agropurus/files/css/css_P-C1vOgWbtISQnGjmivp3F9IQRVPf4robcut_tKeZn4.css?delta=3&amp;language=en&amp;theme=agropur_usa_theme&amp;include=eJx9ylsOAiEMheEN4XRJpEgFkjKQXjSze43GjNGJL-fh-w8WGdMlajNCJjHAbwm6qVGHhErhXV0xWqVOUHgk5JOepU3TPwfbuK3l4FAJM8lBuIxhH6F6ii-CXwoT5aE4q0IWn8jLLouv0xM3rZTDtdFN4blLH9mZ7oxEaE8" />
+<link rel="stylesheet" media="all" href="/us/sites/agropurus/files/css/css_FZwjnJPp-kllZeEUYdzezA5IyZo7EURWmUs9gt03PvI.css?delta=4&amp;language=en&amp;theme=agropur_usa_theme&amp;include=eJx9ylsOAiEMheEN4XRJpEgFkjKQXjSze43GjNGJL-fh-w8WGdMlajNCJjHAbwm6qVGHhErhXV0xWqVOUHgk5JOepU3TPwfbuK3l4FAJM8lBuIxhH6F6ii-CXwoT5aE4q0IWn8jLLouv0xM3rZTDtdFN4blLH9mZ7oxEaE8" />
+
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/us\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4361","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/us\/search":true},"csp":{"nonce":"8MP2Smyj30oFRGcvPutwhQ"},"user":{"uid":0,"permissionsHash":"bebc667c20defcb649b236ef1b2aee3ccedc1bf6ed0261bf8022bac4b27223e1"}}</script>
+<script src="/us/sites/agropurus/files/languages/en_47Yy5hFFYSCii-dxhWUteaJSwnc4JSMkFXacMYKSw48.js?sd6zph"></script>
+<script src="/us/core/misc/drupalSettingsLoader.js?v=10.1.8"></script>
+<script src="/us/core/misc/drupal.js?v=10.1.8"></script>
+<script src="/us/core/misc/drupal.init.js?v=10.1.8"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vendor/jquery.min.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vendor/jquery.once.min.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vendor/vue.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vendor/ua-parser.min.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vendor/hammerjs/hammer.min.js?sd6zph"></script>
+
+  <!-- Hotjar Tracking Code for https://www.agropur.com/us -->
+    <!-- Event snippet for Website traffic conversion page -->
+    <!-- Global site tag (gtag.js) - Google Ads: 451468239 -->
   </head>
+<body class="page-landing-page path-node">
+    <!--[if lt IE 9]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLRVJPQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div
+  role="document" class="page">
+  
+  
 
-  <body>
-    <div class="container">
-      <div class="clock">
-        <div style="--clr: #ff3d58; --h: 74px" id="hour" class="hand">
-          <i></i>
-        </div>
-        <div style="--clr: #00a6ff; --h: 84px" id="min" class="hand">
-          <i></i>
-        </div>
-        <div style="--clr: #ffffff; --h: 94px" id="sec" class="hand">
-          <i></i>
-        </div>
 
-        <span style="--i: 1"><b>1</b></span>
-        <span style="--i: 2"><b>2</b></span>
-        <span style="--i: 3"><b>3</b></span>
-        <span style="--i: 4"><b>4</b></span>
-        <span style="--i: 5"><b>5</b></span>
-        <span style="--i: 6"><b>6</b></span>
-        <span style="--i: 7"><b>7</b></span>
-        <span style="--i: 8"><b>8</b></span>
-        <span style="--i: 9"><b>9</b></span>
-        <span style="--i: 10"><b>10</b></span>
-        <span style="--i: 11"><b>11</b></span>
-        <span style="--i: 12"><b>12</b></span>
-      </div>
+
+
+
+                                                                                                
+                                                      
+ <header class="header">
+
+	<div class="nav-menu-wrapper">
+		<div>
+    <div class="nav-toggle" tabindex="0">
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    <div class="nav-menu__panel">
+        <div class="top-menu">
+    <ul class="top-menu__mobile">
+             <li>
+            <a href="/us/contact-us">Contact us</a>
+        </li>
+            <li>
+            <a href="https://membres.agropur.com/en">Members</a>
+        </li>
+            <li>
+            <a href="/us/careers">Careers</a>
+        </li>
+            <li>
+            <div class="lang-switcher__mobile-wrapper">
+                            </div>
+        </li>
+    </ul>
+
+    <div class="lang-switcher__desktop-wrapper">
+    <div class="language-switcher-language-url block-language-blocklanguage-interface" role="navigation">
+        <div class="lang-switcher">
+            <a href="/" class="language-link is-active" hreflang="en-us" data-drupal-link-system-path="<front>">EN - US</a>
+            <div class="lang-switcher__popup">
+            <ul>
+                 <li>
+                    <a href="https://www.agropur.com/en-us" class="language-link" hreflang="en-us" data-drupal-link-system-path="<front>">EN - International</a>
+                </li>
+                <li>
+                    <a href="https://www.agropur.com/fr" class="language-link" hreflang="fr" data-drupal-link-system-path="<front>">FR - Canada</a>
+                </li>
+                <li>
+                    <a href="https://www.agropur.com/en" class="language-link" hreflang="en" data-drupal-link-system-path="<front>">EN - Canada</a>
+                </li>
+            </ul>
+    </div></div>
+
+  </div>
+</div>
+                <div class="lang-switcher">
+	
+	<div class="lang-switcher__popup">
+		<ul>
+				    </ul>
+    </div>
+</div>  <ul class="top-menu__desktop">
+            <li>
+            <a href="/us/our-cooperative/finances" target="">
+                Finances
+                            </a>
+        </li>
+            <li>
+            <a href="/us/careers" target="">
+                Careers
+                            </a>
+        </li>
+            <li>
+            <a href="/us/contact-us" target="">
+                Contact us
+                            </a>
+        </li>
+            <li>
+            <a href="https://membres.agropur.com/en" target="_blank">
+                Members
+                                    <img src="/us/themes/custom/agropur_usa_theme/assets/images/new-window-icon.png" alt="">
+                            </a>
+        </li>
+        </ul>
+</div>
+        
+<ul class="main-menu">
+  <li class="home main-menu__selected">
+    <a href="#">
+      <span>Home</span>
+    </a>
+  </li>
+          <li data-index="1">
+              <a href="/us/our-cooperative" class="">
+          <span>Our Cooperative</span>
+        </a>
+                      <div class="sub-menu" data-index="1">
+          <a href="#" class="go-to-first-level">back</a>
+      <span>Our Cooperative</span>
+        <ul>
+                      <li>
+                      <a href="/us/our-cooperative/we-are-a-cooperative" class="">
+              <span>We Are a Cooperative</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/our-members" class="">
+              <span>Our Members</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/our-employees" class="">
+              <span>Our Employees</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/our-executives" class="">
+              <span>Our Executives</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/our-history" class="">
+              <span>Our History</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/our-logo" class="">
+              <span>Our Logo</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/finances" class="">
+              <span>Finances</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/our-cooperative/locations" class="">
+              <span>Locations</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="https://www.agropur.com/us/our-cooperative/suppliers" class="">
+              <span>Suppliers</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+          </li>
+          <li data-index="2">
+              <a href="/us/ingredients" class="">
+          <span>Ingredients</span>
+        </a>
+                      <div class="sub-menu" data-index="2">
+          <a href="#" class="go-to-first-level">back</a>
+      <span>Ingredients</span>
+        <ul>
+                      <li>
+                      <span class="">Businesses</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/ingredients/nutrition-solutions" class="">
+              <span>Nutrition Solutions</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/ingredients/dairy-solutions" class="">
+              <span>Dairy Solutions</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <span class="">Ingredients</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/ingredients/applications" class="">
+              <span>Applications</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/ingredients/specialty-ingredients" class="">
+              <span>Specialty Ingredients</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/ingredients/branded-ingredients" class="">
+              <span>Branded Ingredients</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <a href="https://www.agropur.com/us/El-ABC-de-las-Proteinas" class="">
+              <span>El ABC de las Proteínas</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/ingredients/request-sample" class="call-to-action-button">
+              <span>Request a Sample</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+          </li>
+          <li data-index="3">
+              <a href="/us/cheese" class="">
+          <span>Cheese</span>
+        </a>
+                      <div class="sub-menu" data-index="3">
+          <a href="#" class="go-to-first-level">back</a>
+      <span>Cheese</span>
+        <ul>
+                      <li>
+                      <a href="/us/cheese/contest-success" class="">
+              <span>Contest Success</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/retail-stores" class="">
+              <span>Retail Stores</span>
+            </a>
+                            </li>
+                      <li>
+                      <span class="">American Style Cheese</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/cheese/american-style-cheese/cheddar" class="">
+              <span>Cheddar</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/american-style-cheese/colby-jack" class="">
+              <span>Colby Jack</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/american-style-cheese/monterey-jack" class="">
+              <span>Monterey Jack</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/american-style-cheese/muenster" class="">
+              <span>Muenster</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <span class="">Italian Style Cheese</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/asiago" class="">
+              <span>Asiago</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/mozzarella" class="">
+              <span>Mozzarella</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/fontina" class="">
+              <span>Fontina</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/parmesan" class="">
+              <span>Parmesan</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/provolone" class="">
+              <span>Provolone</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/italian-style-cheese/romano" class="">
+              <span>Romano</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <span class="">Dutch Style Cheese</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/cheese/dutch-style-cheese/gouda" class="">
+              <span>Gouda</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <span class="">Feta Style Cheese</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/cheese/feta-style-cheese/feta-varieties" class="">
+              <span>Feta Varieties</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <a href="/us/cheese/sticks" class="">
+              <span>Sticks</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/wisconsin-master-cheesemakers" class="">
+              <span>Wisconsin Master Cheesemakers</span>
+            </a>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="/us/cheese/wisconsin-master-cheesemakers/Charlie-henn" class="">
+              <span>Charlie Henn</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/wisconsin-master-cheesemakers/pat-doell" class="">
+              <span>Pat Doell</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/cheese/wisconsin-master-cheesemakers/tom-blauert" class="">
+              <span>Tom Blauert</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <a href="/us/ingredients/request-sample" class="call-to-action-button">
+              <span>Request a Sample</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+          </li>
+          <li data-index="4">
+              <a href="/us/research-development-innovation" class="">
+          <span>Research &amp; Development</span>
+        </a>
+                </li>
+          <li data-index="5">
+              <a href="/us/what-we-stand-for" class="">
+          <span>What We Stand For</span>
+        </a>
+                      <div class="sub-menu" data-index="5">
+          <a href="#" class="go-to-first-level">back</a>
+      <span>What We Stand For</span>
+        <ul>
+                      <li>
+                      <a href="/us/what-we-stand-for/sustainable-farms" class="">
+              <span>Sustainable Farms</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/what-we-stand-for/community-involvement" class="">
+              <span>Community Involvement</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/what-we-stand-for/responsible-operations" class="">
+              <span>Responsible Operations</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/what-we-stand-for/quality" class="">
+              <span>Quality</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/what-we-stand-for/social-responsibility" class="">
+              <span>Social Responsibility</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+          </li>
+          <li data-index="6">
+              <a href="/us/producer-services" class="">
+          <span>Producer Services</span>
+        </a>
+                </li>
+          <li data-index="7">
+              <a href="/us/news" class="">
+          <span>News</span>
+        </a>
+                      <div class="sub-menu" data-index="7">
+          <a href="#" class="go-to-first-level">back</a>
+      <span>News</span>
+        <ul>
+                      <li>
+                      <span class="">News</span>
+                                  <div class="sub-menu" data-index="">
+        <ul>
+                      <li>
+                      <a href="https://www.agropur.com/us/news/all-news" class="">
+              <span>All News</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/news/our-stories" class="">
+              <span>Our Stories</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/news/passionate-people" class="">
+              <span>Passionate People</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="/us/news/recipes" class="">
+              <span>Recipes</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+                  </li>
+                      <li>
+                      <a href="/us/agropur-quarterly-connection" class="">
+              <span>Agropur Quarterly Connection</span>
+            </a>
+                            </li>
+                      <li>
+                      <a href="https://www.agropur.com/us/news/Tu-companero-de-Lacteos-en-Latino-America" class="">
+              <span>Tu compañero de Lácteos en Latino América</span>
+            </a>
+                            </li>
+          </ul>
+  </div>
+
+          </li>
+  </ul>
+
+        <div class="white-background"></div>
+    </div>
+</div>	</div>
+	<div class="nav-logo-wrapper">
+		<div class="nav-logo">
+  <a href="/us/" class="nav-logo__big">
+          <img src="/us/themes/custom/agropur_usa_theme/styleguide/assets/images/agropur-logo--main.svg" alt="Agropur Home" title="">
+      </a>
+  <a href="/us/" class="nav-logo__mini">
+    <img src="/us/themes/custom/agropur_usa_theme/assets/images/agropur-logo--mini.svg" alt="Agropur Home" title="">
+  </a>
+</div>
+	</div>
+	<div id="vue-search" class="nav-search-wrapper">
+		<div class="nav-search" tabindex="0">
+  <div class="search-icon--mobile" data-toggle-modal="search-bar">
+    <svg role="img" class="icon icon--search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 612.01 612.01" style="enable-background:new 0 0 612.01 612.01;" xml:space="preserve" fill="#EB6888">
+            <g>
+                <g id="_x34__4_">
+                    <g>
+                        <path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0     C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586     l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8     c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407     S377.82,467.8,257.493,467.8z" />
+                    </g>
+                </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+        </svg>  </div>
+
+  <div class="search-icon--desktop" data-toggle-modal="search-bar">
+    <svg role="img" class="icon icon--search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 612.01 612.01" style="enable-background:new 0 0 612.01 612.01;" xml:space="preserve" fill="#EB6888">
+            <g>
+                <g id="_x34__4_">
+                    <g>
+                        <path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0     C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586     l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8     c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407     S377.82,467.8,257.493,467.8z" />
+                    </g>
+                </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+        </svg>  </div>
+</div>
+
+<modal modal-name="search-bar" modal-style="beige" v-cloak>
+  <div class="search-bar">
+
+  		 			      <div class="views-exposed-form block-views-exposed-filter-blocksearch-page-page-1" data-drupal-selector="views-exposed-form-search-page-page-1">
+  
+    
+      <form action="/us/search" method="get" id="views-exposed-form-search-page-page-1" accept-charset="UTF-8">
+  <div class="search-header__search-form clearfix">
+  <div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete form-item-keywords js-form-item-keywords form-no-label">
+      <label for="edit-keywords" class="form-item__label visually-hidden">Keywords</label>
+          <input placeholder="Search for a brand, news article, information, etc" data-drupal-selector="edit-keywords" type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" class="form-text field field--text"/>
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button class="search-header__submit button js-form-submit form-submit" data-twig-suggestion="search_results_submit" data-drupal-selector="edit-submit-search-page" type="submit" id="edit-submit-search-page" value="Submit" >
+  <svg role="img" class="icon icon--search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 612.01 612.01" style="enable-background:new 0 0 612.01 612.01;" xml:space="preserve" fill="#EB6888">
+            <g>
+                <g id="_x34__4_">
+                    <g>
+                        <path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0     C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586     l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8     c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407     S377.82,467.8,257.493,467.8z" />
+                    </g>
+                </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+        </svg></button>
+</div>
+
+</div>
+
+</form>
+
+  </div>
+
+
+ 
+		 	   	   </div>
+</modal>
+  </div>
+	</div>
+	<div class="header__border"></div>
+</header>
+
+      
+    <div class="views-element-container"></div>
+
+      <div class="block-system-breadcrumb-block">
+  
+    
+      
+
+            
+                        
+            <nav class="breadcrumb-nav" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb__see-more">
+            <a href="#">...</a>
+            <div class="breadcrumb__popup"><ul></ul></div>
+        </li>
+            <li>
+            <a href="/us/">Home</a>
+        </li>
+            <li>
+            <a href="/us/ingredients">Agropur Ingredients</a>
+        </li>
+        </ol>
+</nav>
+
+  </div>
+
+
+  
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+        <section class="main-content" id="#main-content">
+      <div class="container">
+                    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+                          <div id="vue-page">
+            
+    
+<section class="landing-page landing-page--full">
+    
+    
+    <div class="landing-page__content">
+            <div class="field field--type-entity-reference-revisions __page-paragraph field__items">
+              <div class="field__item">
+
+
+
+
+    
+<div class="hero-container hero-columns-1">
+    <div class="hero-background-container">
+        <div class="hero-background-image" style="background: url(/us/sites/agropurus/files/images/Agropur-Ingredients-VarietyofIngredients%20%281%29.jpg) no-repeat scroll center center/cover;"></div>
+
+        
+        <div class="hero-background-filter"></div>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="hero-content-container">
+        <div class="hero-content">
+            <div class="hero-text-wrapper">
+                <div class="hero-content-title">
+                    <h1 class="heading-first-maax in-hero color-white">Ingredients</h1>
+                </div>
+
+                <div class="hero-content-text p-content color-white">
+                    <p>Agropur Ingredients is a global leader, supplying some of the world’s most prominent food, beverage, and nutrition industries with innovative functional ingredients. Whether your objective is to develop new products, improve product flavor, streamline production processes, improve texture, increase shelf-life, enhance nutrition, boost output, or achieve better sensory perception we can deliver a solution for you.</p>
+                </div>
+            </div>
+            <div class="hero-cta-wrapper">
+
+                
+                                    <div class="hero-content__cta">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <a
+     href="https://www.agropur.com/us/download/english-ingredients-booklet"     class="call-to-action-button call-to-action-button--white call-to-action-button--right-arrow-white"         target="_self"   >Download Ingredients Booklet</a>
+                                                      <a
+     href="https://www.agropur.com/us/download/spanish-ingredients-booklet"     class="call-to-action-button call-to-action-button--white call-to-action-button--right-arrow-white"         target="_self"   >Download Spanish Ingredients Booklet</a>
+                                                      <a
+     href="https://www.agropur.com/us/download/portuguese-ingredients-booklet"     class="call-to-action-button call-to-action-button--white call-to-action-button--right-arrow-white"         target="_self"   >Download Portuguese Ingredients Booklet</a>
+                                                                                                                                                    </div>
+                
+                            </div>
+        </div>
+    </div>
+    <div class="hero-scroll-down-container">
+        <div class="hero-scroll-down__icon">
+           <?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="6px" viewBox="0 0 13 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration - Mouse</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illustration---Mouse" stroke="#FFFFFF">
+            <path d="M0.545665421,0.504865291 L6.5,5.35511038 L12.4543346,0.504865291 C12.404174,0.492564067 12.349556,0.50358906 12.3073852,0.537940269 L6.5,5.26848422 L0.692614818,0.537940269 C0.650444043,0.50358906 0.595826047,0.492564067 0.545665421,0.504865291 Z" id="Icon---Mouse"></path>
+        </g>
+    </g>
+</svg>        </div>
+    </div>
+</div>
+
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--wysiwyg-text paragraph--view-mode--default wysiwyg-wrapper">
+                      <div class="field field--type-text-long __wysiwyg-text field__item"><h2>A True Solutions Provider</h2>
+
+<p class="wysigwyg-p-content">On a global scale, Agropur manages retail brands, cheese and ingredient manufacturing, blending and agglomeration, contract manufacturing, formulation, exports, as well as liquid dairy and RTD production. Comprising several manufacturing and blending plants in the US and Canada, we offer the worldwide food industry a variety of products and services through three solution sectors.</p>
+
+<p class="wysigwyg-p-content">We continuously invest in our world class facilities, our quality and innovation programs and most importantly our people. Customers can be confident that our rigorous quality certification guidelines, industry relationships, customer service, market insight, fluid sourcing and delivery processes are second to none.</p></div>
+      
+      </div>
+</div>
+              <div class="field__item">
+  
+<div class="video-content content-row content-row--blue">
+  
+  
+  <div class="content-wrapper">
+          <video-player display-type="player" video-id="6323096471112" account-id="1863293930001" player-id="BkYZil9lG" embed="default" data-application-id full-width controls></video-player>
+      </div>
+</div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--wysiwyg-text paragraph--view-mode--default wysiwyg-wrapper">
+                      <div class="field field--type-text-long __wysiwyg-text field__item"><p class="wysigwyg-p-content">Our team offers expertise, ingredients and services tailored to address unique production and nutritional needs. Whether the objective is to improve product texture, shelf life, nutrition, output and cost or to streamline operational processes with a turnkey contract manufacturer we have capabilities to serve.</p>
+
+<p class="wysigwyg-p-content">Our ingredients division has a global reach, with 75 percent of its products sold and shipped to countries outside of the United States. We provide logistics support to over 50 countries, ensuring that its goods are available to as many food companies as possible. Our ingredients division offers industry leading quality, consistency, and supply of its products.</p></div>
+      
+      </div>
+</div>
+              <div class="field__item">
+  <div class="paragraph paragraph--type--content-tile-list paragraph--view-mode--default content-wrapper">
+    <div class="field__items content-tile-list">
+      <div class="tile-list-title">
+        <h2 class="heading-second-playfair"></h2>
+      </div>
+              <div class="field__items content-tile-list">
+          <div class="content-tile-list__content content-tile-list-style--large">
+                              
+
+    
+
+  
+  
+  
+    <a href="/us/ingredients/applications" target="" >
+        <div class="tile content-tile " id="applications">
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/Applications.jpg" alt="Applications">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">Applications</h3>
+                                    <p class="p-content color-blue"><p>From nutritional or pharmaceutical products to mainstream food and beverage products, Agropur has ingredient solutions that will add value to your application. Our holistic approach means that we can help you from supply to formulation, to processing and production. Explore our food and beverage, and nutrition applications categories to discover more.</p></p>
+                                                      <a
+     href="/us/ingredients/applications"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_self"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+                
+
+    
+
+  
+  
+  
+    <a href="/us/ingredients/specialty-ingredients" target="" >
+        <div class="tile content-tile " id="specialty-ingredients">
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/Specialty%20Ingredients%20horizontal_1.jpg" alt="Specialty Ingredients">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">Specialty Ingredients</h3>
+                                    <p class="p-content color-blue"><p>Driven by food science and product innovation, Agropur offers manufactured and specialty blended ingredients that help create the perfect balance of product purity, performance, and quality. We understand the time, financial and intellectual investments you put into your food and beverage products and promise to help deliver your customer commitment.</p></p>
+                                                      <a
+     href="/us/ingredients/specialty-ingredients"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_self"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+                
+
+    
+
+  
+  
+  
+    <a href="/us/ingredients/branded-ingredients" target="" >
+        <div class="tile content-tile " id="branded-ingredients">
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/Branded%20Ingredients.jpg" alt="Branded Ingredients">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">Branded Ingredients</h3>
+                                    <p class="p-content color-blue"><p>Driven by food science and product innovation, Agropur offers manufactured and specialty blended ingredient solutions that help create the perfect balance of purity, performance, and quality. We understand the time, financial and intellectual investment you put into your food and beverage products and promise to help deliver your customer commitment.</p></p>
+                                                      <a
+     href="/us/ingredients/branded-ingredients"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_self"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+      
+
+          </div>
+        </div>
+          </div>
+  </div>
+</div>
+              <div class="field__item">
+  <div class="paragraph paragraph--type--content-tile-list paragraph--view-mode--default content-wrapper">
+    <div class="field__items content-tile-list">
+      <div class="tile-list-title">
+        <h2 class="heading-second-playfair">            <div class="field field--type-string __title field__item">Affiliations &amp; Partnerships</div>
+      </h2>
+      </div>
+              <div class="field__items content-tile-list">
+          <div class="content-tile-list__content content-tile-list-style--small">
+                              
+
+    
+
+  
+  
+  
+    <a href="https://www.thestronginside.com/" target="_blank" >
+        <div class="tile content-tile " >
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/TheStrongInside_ProductSeal_Whey_Blue_RGB_R_0.png" alt="The Strong Inside">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">The Strong Inside</h3>
+                                    <p class="p-content color-blue"></p>
+                                                      <a
+     href="https://www.thestronginside.com/"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_blank"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+                
+
+    
+
+  
+  
+  
+    <a href="https://www.idfa.org/" target="_blank" >
+        <div class="tile content-tile " >
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/IDFA-logo_500x400.png" alt="International Dairy Foods Association">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">International Dairy Foods Association</h3>
+                                    <p class="p-content color-blue"></p>
+                                                      <a
+     href="https://www.idfa.org/"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_blank"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+                
+
+    
+
+  
+  
+  
+    <a href="https://www.adpi.org/" target="_blank" >
+        <div class="tile content-tile " >
+                            <div>
+                    <img src="/us/sites/agropurus/files/images/ADPI-logo_500x400.png" alt="American Dairy Products Institute">
+                </div>
+                        <div class="content-tile__content">
+                <h3 class="heading-fifth-playfair color-blue">American Dairy Products Institute</h3>
+                                    <p class="p-content color-blue"></p>
+                                                      <a
+     href="https://www.adpi.org/"     class="call-to-action-button call-to-action-button--right-arrow-blue call-to-action-button--blue"         target="_blank"   >Learn more</a>
+                            </div>
+        </div>
+    </a>
+
+      
+
+          </div>
+        </div>
+          </div>
+  </div>
+</div>
+              <div class="field__item">
+
+
+
+    
+
+<div class="jumbotron-container">
+  <div class="jumbotron-background-image-container">
+    <div class="jumbotron-background-image" style="background: url(/us/sites/agropurus/files/images/CareerBanner-MostImportantIngredient-Employees_1.jpg) no-repeat scroll center center/cover;"></div>
+    <div class="jumbotron-background-filter"></div>
+  </div>
+  <div class="jumbotron-content-container ">
+    <div class="jumbotron-content">
+      <div class="jumbotron-content-title">
+        <h2 class="heading-second-playfair color-white">You Are Our Most Important Ingredient</h2>
+      </div>
+      <div class="jumbotron-content-text p-content color-white">
+        <p>We offer a stimulating and safe work environment that gives everyone the opportunity to apply their talents, and be part of a team that truly cares. We offer a great salary, great benefits and the opportunity to make a difference as an employee of an essential business. This is your chance to make a difference, and help make the world a better place. Join our team and help feed the world.</p>
+          <a
+     href="https://agropur.wd3.myworkdayjobs.com/Agropur_Careers/0/refreshFacet/318c8bb6f553100021d223d9780d30be"     class="call-to-action-button call-to-action-button--right-arrow-white call-to-action-button--white"         target="_self"   >Careers site</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+          </div>
+  
+    </div>
+
+    
+  </section>
+
+
+            
+          </div>
+              </div>
+    </section>
+
+  </main>
+
+    
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <footer class="footer">
+  <div class="social-medias ">
+  <div class="content-wrapper">
+
+        	<a href="https://www.facebook.com/agropurus" target="_blank" class="social-medias__media"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve"><path d="M90,15.001C90,7.119,82.884,0,75,0H15C7.116,0,0,7.119,0,15.001v59.998C0,82.881,7.116,90,15.001,90H45V56H34V41h11v-5.844C45,25.077,52.568,16,61.875,16H74v15H61.875C60.548,31,59,32.611,59,35.024V41h15v15H59v34h16c7.884,0,15-7.119,15-15.001V15.001z"/></svg></a>
+        	<a href="https://www.linkedin.com/company/agropur-us-operations" target="_blank" class="social-medias__media"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve"><path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0zM153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/></svg></a>
+        	<a href="https://www.instagram.com/agropur_us/ " target="_blank" class="social-medias__media"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2 2 16 16"><path d="M12.7 10c0-1.5-1.2-2.7-2.7-2.7S7.3 8.5 7.3 10s1.2 2.7 2.7 2.7c1.5 0 2.7-1.2 2.7-2.7zm1.4 0c0 2.3-1.8 4.1-4.1 4.1S5.9 12.3 5.9 10S7.7 5.9 10 5.9s4.1 1.8 4.1 4.1zm1.1-4.3c0 .6-.4 1-1 1s-1-.4-1-1s.4-1 1-1s1 .5 1 1zM10 3.4c-1.2 0-3.7-.1-4.7.3c-.7.3-1.3.9-1.5 1.6c-.4 1-.3 3.5-.3 4.7s-.1 3.7.3 4.7c.2.7.8 1.3 1.5 1.5c1 .4 3.6.3 4.7.3s3.7.1 4.7-.3c.7-.3 1.2-.8 1.5-1.5c.4-1.1.3-3.6.3-4.7s.1-3.7-.3-4.7c-.2-.7-.8-1.3-1.5-1.5c-1-.5-3.5-.4-4.7-.4zm8 6.6v3.3c0 1.2-.4 2.4-1.3 3.4c-.9.9-2.1 1.3-3.4 1.3H6.7c-1.2 0-2.4-.4-3.4-1.3c-.8-.9-1.3-2.1-1.3-3.4V10V6.7c0-1.3.5-2.5 1.3-3.4C4.3 2.5 5.5 2 6.7 2h6.6c1.2 0 2.4.4 3.4 1.3c.8.9 1.3 2.1 1.3 3.4V10z" fill="#ffffff"/></svg></a>
+        	<a href="https://www.youtube.com/channel/UCxvcRaHr1EubS-v3foWy3Xw" target="_blank" class="social-medias__media"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 311.586 792 600.828" enable-background="new 0 311.586 792 600.828" xml:space="preserve"><path d="M783.807,441.311c0,0-8.194-58.718-31.406-84.663c-30.042-34.138-64.181-34.138-79.2-35.504c-110.606-8.192-277.2-9.558-277.2-9.558s-166.594,1.366-277.2,9.558c-15.02,1.366-49.158,2.732-79.2,35.504c-24.58,25.946-31.406,84.663-31.406,84.663S0,510.952,0,580.594v64.18c0,69.643,8.194,137.918,8.194,137.918s8.194,58.718,31.406,84.662c30.042,34.138,69.642,32.772,87.394,36.87c62.812,6.824,269.006,8.19,269.006,8.19s166.594,0,277.2-9.559c15.02-1.365,49.158-2.731,79.2-35.504c23.214-25.943,31.406-84.662,31.406-84.662S792,713.048,792,644.772v-64.181C792,510.952,783.807,441.311,783.807,441.311z M300.414,770.4V474.082l259.448,151.574L300.414,770.4z"/></svg></a>
+        	<a href="https://vimeo.com/agropurus" target="_blank" class="social-medias__media"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M0 0v24h24v-24h-24zm19.249 10.732c-1.628 3.478-5.558 8.213-8.042 8.213-2.448 0-2.802-5.221-4.139-8.696-.658-1.709-1.083-1.317-2.316-.454l-.752-.97c1.798-1.581 3.599-3.418 4.705-3.52 1.245-.12 2.012.731 2.299 2.554.379 2.396.908 6.114 1.832 6.114.72 0 2.494-2.95 2.585-4.004.162-1.544-1.135-1.591-2.261-1.109 1.781-5.836 9.194-4.761 6.089 1.872z"/></svg></a>
+      </div>
+</div>
+    <div class="footer-nav">
+  <div class="content-wrapper">
+    <nav>
+              <div class="footer-nav__menu">
+          <a href="/us/our-cooperative" class="footer-nav__menu-label">Our Cooperative</a>
+          <ul>
+                          <li>
+                <a href="/us/our-cooperative/we-are-a-cooperative">We Are a Cooperative</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/our-members">Our Members</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/our-employees">Our Employees</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/our-executives">Our Executives</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/our-history">Our History</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/our-logo">Our Logo</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/finances">Finances</a>
+              </li>
+                          <li>
+                <a href="/us/our-cooperative/locations">Our Locations</a>
+              </li>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/ingredients" class="footer-nav__menu-label">Ingredients</a>
+          <ul>
+                          <li>
+                <a href="/us/ingredients/nutrition-solutions">Nutrition Solutions</a>
+              </li>
+                          <li>
+                <a href="/us/ingredients/dairy-solutions">Dairy Solutions</a>
+              </li>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/cheese" class="footer-nav__menu-label">Cheese</a>
+          <ul>
+                          <li>
+                <a href="https://www.agropur.com/us/cheese#american-style">American Cheese Style</a>
+              </li>
+                          <li>
+                <a href="https://www.agropur.com/us/cheese#italian-style">Italian Cheese Style</a>
+              </li>
+                          <li>
+                <a href="https://www.agropur.com/us/cheese#dutch-style">Dutch Cheese Style</a>
+              </li>
+                          <li>
+                <a href="/us/cheese/feta-style-cheese/feta-varieties">Feta Cheese Style</a>
+              </li>
+                          <li>
+                <a href="/us/cheese/sticks">Sticks</a>
+              </li>
+                          <li>
+                <a href="/us/cheese/wisconsin-master-cheesemakers">Wisconsin Master Cheesemakers</a>
+              </li>
+                          <li>
+                <a href="/us/cheese/contest-success">Contest Success</a>
+              </li>
+                          <li>
+                <a href="/us/cheese/retail-stores">Retail Stores</a>
+              </li>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/what-we-stand-for" class="footer-nav__menu-label">What We Stand For</a>
+          <ul>
+                          <li>
+                <a href="/us/what-we-stand-for/sustainable-farms">Animal Welfare</a>
+              </li>
+                          <li>
+                <a href="/us/what-we-stand-for/community-involvement">Community Involvement</a>
+              </li>
+                          <li>
+                <a href="/us/what-we-stand-for/responsible-operations">Environment</a>
+              </li>
+                          <li>
+                <a href="/us/what-we-stand-for/social-responsibility">Social Responsibility</a>
+              </li>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/research-development-innovation" class="footer-nav__menu-label">RD&amp;I</a>
+          <ul>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/producer-services" class="footer-nav__menu-label">Producer Services</a>
+          <ul>
+                      </ul>
+        </div>
+              <div class="footer-nav__menu">
+          <a href="/us/news" class="footer-nav__menu-label">News</a>
+          <ul>
+                          <li>
+                <a href="/us/agropur-quarterly-connection">Quarterly Connection</a>
+              </li>
+                          <li>
+                <a href="https://www.agropur.com/us/news/Your-LATAM-dairy-partner">Your LATAM dairy partner</a>
+              </li>
+                      </ul>
+        </div>
+            <div class="footer-nav__menu contact-form">
+        <a href="/us/contact-us" class="call-to-action-button call-to-action-button--right-arrow-white call-to-action-button--white">Contact us</a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <script>
+      (function(){
+        var s    = document.createElement('script');
+        var h    = document.querySelector('head') || document.body;
+        s.src    = 'https://acsbapp.com/apps/app/dist/js/app.js';
+        s.async  = true;
+        s.onload = function(){
+          acsbJS.init({
+            statementLink    : '',
+            footerHtml       : '',
+            hideMobile       : false,
+            hideTrigger      : false,
+            disableBgProcess : false,
+            language         : 'en',
+            position         : 'right',
+            leadColor        : '#1B3355',
+            triggerColor     : '#1B3355',
+            triggerRadius    : '50%',
+            triggerPositionX : 'right',
+            triggerPositionY : 'bottom',
+            triggerIcon      : 'people',
+            triggerSize      : 'bottom',
+            triggerOffsetX   : 20,
+            triggerOffsetY   : 20,
+            mobile           : {
+                triggerSize      : 'small',
+                triggerPositionX : 'right',
+                triggerPositionY : 'bottom',
+                triggerOffsetX   : 10,
+                triggerOffsetY   : 10,
+                triggerRadius    : '20'
+            }
+          });
+        };
+        h.appendChild(s);
+      })();
+    </script>
+      <div class="block-agropur-hub-footer-block">
+  
+    
+      <div class="agropur-hub-footer">
+  <div class="agropur-hub-footer--wrapper">
+    <div class="menu-left">  <div class="field field--type-link __links">
+    <h4 class="field__label">Links</h4>
+          <div class="field__items">
+              <div class="field__item"><a href="/us/careers">Careers</a></div>
+          <div class="field__item"><a href="https://www.agropur.com/en/terms-of-use">Terms of Use</a></div>
+          <div class="field__item"><a href="https://www.agropur.com/sites/default/files/documents/Protection%20of%20Personal%20Information%20Policy_PublicWeb_EN_0.pdf">Privacy</a></div>
+              </div>
+      </div>
+</div>
+    <div class="logo"><a class="link" href="https://www.agropur.com/en?lang=en" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 203 52" style="enable-background:new 0 0 203 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="Logo" transform="translate(-44.665 -44.665)">
+	<g id="Group_2" transform="translate(44.666 44.666)">
+		<path id="Path_26" class="st0" d="M38.3,30.5l-4.2-4.2l4.2-4.2c2.3-2.3,6-2.3,8.3,0c2.3,2.3,2.3,6,0,8.3S40.6,32.8,38.3,30.5    C38.3,30.5,38.3,30.5,38.3,30.5 M47.3,19.9c-3.6-3.6-9.4-3.6-13,0c0,0,0,0,0,0l-6.5,6.5l6.5,6.5c3.6,3.6,9.4,3.6,13,0.1    C50.9,29.4,50.9,23.5,47.3,19.9C47.3,19.9,47.3,19.9,47.3,19.9"></path>
+		<path id="Path_27" class="st0" d="M30.8,14.6l-4.2,4.2l-4.2-4.2c-2.3-2.3-2.3-6,0-8.3c2.3-2.3,6-2.3,8.3,0    C33.1,8.6,33.1,12.3,30.8,14.6C30.8,14.6,30.8,14.6,30.8,14.6 M20.1,5.7c-3.6,3.6-3.6,9.4,0,13c0,0,0,0,0,0l6.5,6.5l6.5-6.5    c3.6-3.6,3.6-9.4,0.1-13C29.6,2.1,23.7,2.1,20.1,5.7C20.1,5.7,20.1,5.7,20.1,5.7"></path>
+		<path id="Path_28" class="st0" d="M14.8,22.2l4.2,4.2l-4.2,4.2c-2.3,2.3-6,2.3-8.3,0c-2.3-2.3-2.3-6,0-8.3S12.5,19.9,14.8,22.2    C14.8,22.2,14.8,22.2,14.8,22.2 M5.9,32.9c3.6,3.6,9.4,3.6,13,0l6.5-6.5l-6.5-6.5c-3.6-3.6-9.4-3.6-13,0.1    C2.4,23.5,2.4,29.3,5.9,32.9"></path>
+		<path id="Path_29" class="st0" d="M22.4,38.1l4.2-4.2l4.2,4.2c2.3,2.3,2.3,6,0,8.3c-2.3,2.3-6,2.3-8.3,0    C20.1,44.2,20.1,40.4,22.4,38.1C22.4,38.1,22.4,38.1,22.4,38.1 M33.1,47c3.6-3.6,3.6-9.4,0-13l-6.5-6.5L20.1,34    c-3.6,3.6-3.6,9.4,0.1,13C23.7,50.6,29.5,50.6,33.1,47"></path>
+	</g>
+	<g id="Group_3" transform="translate(73.947 52.018)">
+		<path id="Path_30" class="st0" d="M39.7,20.6l-2.6-6.3l-2.6,6.3L39.7,20.6z M39.2,9.3L47.1,28c0.1,0.3,0,0.5-0.3,0.6    c-0.1,0-0.1,0-0.2,0h-3.7l-1.8-4.3H33l-1.8,4.3h-3.6c-0.3,0-0.5-0.2-0.5-0.5c0-0.1,0-0.1,0-0.2l7.9-18.7H39.2z"></path>
+		<path id="Path_31" class="st0" d="M48.3,19.1L48.3,19.1c0-5.5,4.4-10,9.9-10.1c0.1,0,0.2,0,0.3,0c2.8-0.1,5.5,0.8,7.6,2.7    l-2.4,2.9c-0.2,0.2-0.5,0.2-0.7,0.1c-1.3-1.1-3-1.7-4.7-1.7c-3.2,0.1-5.7,2.8-5.6,6V19c-0.2,3.2,2.3,5.9,5.5,6.1    c0.1,0,0.3,0,0.4,0c1.4,0,2.8-0.4,4-1.2v-2.8h-4.3v-3.7h8.4V26c-2.3,2-5.2,3.1-8.3,3.1c-5.3,0.3-9.9-3.8-10.2-9.2    C48.3,19.6,48.3,19.3,48.3,19.1"></path>
+		<path id="Path_32" class="st0" d="M79.4,18.7c2.1,0,3.3-1.1,3.3-2.7v0c0-1.8-1.3-2.8-3.3-2.8h-4.2v5.6L79.4,18.7z M70.8,9.3h8.9    c2.1-0.1,4.1,0.6,5.6,2c1.1,1.2,1.7,2.8,1.7,4.4v0.1c0.1,2.7-1.6,5.2-4.1,6l4.2,6.1c0.2,0.2,0.1,0.5-0.1,0.7    c-0.1,0.1-0.2,0.1-0.3,0.1h-4l-4.1-6.2h-3.3v6.2h-4.3L70.8,9.3z"></path>
+		<path id="Path_33" class="st0" d="M106.1,19.1L106.1,19.1c0.1-3.3-2.4-6-5.7-6.1c-0.1,0-0.1,0-0.2,0c-3.2,0-5.8,2.6-5.8,5.8    c0,0.1,0,0.2,0,0.3V19c-0.1,3.2,2.4,6,5.7,6.1c0.1,0,0.1,0,0.2,0c3.2,0,5.8-2.6,5.8-5.8C106.1,19.3,106.1,19.2,106.1,19.1     M89.9,19.1L89.9,19.1c0.2-5.7,4.9-10.2,10.6-10.1c5.4,0.1,9.8,4.5,10,10V19c-0.2,5.7-4.9,10.2-10.6,10    C94.5,28.9,90.1,24.5,89.9,19.1"></path>
+		<path id="Path_34" class="st0" d="M121.9,19.1c1.6,0.2,3.1-1,3.4-2.6c0-0.1,0-0.2,0-0.3v-0.1c0-1.9-1.3-2.9-3.5-2.9h-3.3v5.9    L121.9,19.1z M114.3,9.3h7.9c4.6,0,7.4,2.7,7.4,6.7v0.1c0,4.5-3.5,6.8-7.8,6.8h-3.2v5.8h-4.3L114.3,9.3z"></path>
+		<path id="Path_35" class="st0" d="M132.5,20.4V9.3h4.3v10.9c0,3.2,1.6,4.8,4.2,4.8c2.6,0,4.2-1.6,4.2-4.6V9.3h4.3v10.9    c0,5.9-3.3,8.7-8.5,8.7S132.5,26.1,132.5,20.4"></path>
+		<path id="Path_36" class="st0" d="M162,18.7c2.1,0,3.3-1.1,3.3-2.7v0c0-1.8-1.3-2.8-3.3-2.8h-4.2v5.6L162,18.7z M153.4,9.3h8.8    c2.1-0.1,4.1,0.6,5.6,2c1.1,1.2,1.7,2.8,1.7,4.4v0.1c0.1,2.7-1.6,5.2-4.1,6l4.2,6.1c0.2,0.2,0.1,0.5-0.1,0.7    c-0.1,0.1-0.2,0.1-0.3,0.1h-4l-4.2-6.2h-3.3v6.2h-4.3L153.4,9.3z"></path>
+	</g>
+</g>
+</svg></a></div>
+    <div class="menu-right"></div>
+  </div>
+</div>
+  </div>
+
+
+</footer>
+
+</div>
+
+  </div>
+
+  
+  <script src="/us/core/assets/vendor/jquery/jquery.min.js?v=3.7.0"></script>
+<script src="/us/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="/us/modules/custom/agropur_sitealert/js/agropur_sitealert.js?v=1"></script>
+<script src="/us/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.5"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/es6/components/brands-slider.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/main-menu.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/es6/components/modal.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/nav-toggle.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/header.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/breadcrumb.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/agro_webform_keepsource.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/es6/components/video-player.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/custom/language_switcher.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/es6/components/our-brands.js?sd6zph"></script>
+<script src="/us/themes/custom/agropur_usa_theme/js/vues/page-vue.js?sd6zph"></script>
+
+    
+  <div id="geolocation-redirect" class="hidden">
+    <span>You are being automatically redirected...</span>
+  </div>
+
+  
+  <script type="text/javascript">
+_linkedin_partner_id = "1863332";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<!-- Tracking tags -->
+<script type="text/javascript" src="//tag.brandcdn.com/autoscript/agropurmsillc_vfzsuk0wnxfvvfe9/Agropur_MSI_LLC.js"></script>
+<script type="text/javascript" src="//tag.brandcdn.com/autoscript/agropurinc_vfdwsk1vnvvhek09/Agropur_Inc.js"></script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1863332&fmt=gif" />
+</noscript>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"452bec70c1","applicationID":"247381080","transactionName":"Y1NRNkoDDxAHABdeXVoZcgFMCw4NSRMCUFdrVVIBUAc=","queueTime":9,"applicationTime":20,"atts":"TxRGQAIZHE9EAkENSUlL","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
